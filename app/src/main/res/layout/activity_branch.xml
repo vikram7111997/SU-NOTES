@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.example.vikram.su_notes.Branch">
+    <Button
+        android:id="@+id/btncse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMPUTER SCIENCE AND ENGINEERING"
+        android:textStyle="bold"
+        android:background="#20000000"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        />
+    <Button
+        android:id="@+id/btnmech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MECHANICAL ENGINEERING"
+        android:textStyle="bold"
+        android:background="#20000000"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        />
+    <Button
+        android:id="@+id/btnentc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ELECTRONICS AND TELECOMMUNICATION"
+        android:textStyle="bold"
+        android:background="#20000000"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        />
+    <Button
+        android:id="@+id/btnelectrical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ELECTRICAL ENGINEERING"
+        android:textStyle="bold"
+        android:background="#20000000"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        />
+    <Button
+        android:id="@+id/btncivil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CIVIL ENGINEERING"
+        android:textStyle="bold"
+        android:background="#20000000"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        />
+
+</LinearLayout>

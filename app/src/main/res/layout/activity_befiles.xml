@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.example.vikram.su_notes.Befiles">
+
+    <Button
+        android:id="@+id/btnbesyllabus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BE SYLLABUS BOOK"
+        android:textStyle="bold"
+        android:background="#20000000"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        />
+    <Button
+        android:id="@+id/btnsem7be"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BE SEM VII"
+        android:textStyle="bold"
+        android:background="#20000000"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        />
+    <Button
+        android:id="@+id/btnsem8be"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BE SEM VIII"
+        android:textStyle="bold"
+        android:background="#20000000"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        />
+
+</LinearLayout>

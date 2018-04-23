@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.example.vikram.su_notes.Sefiles">
+
+    <Button
+        android:id="@+id/btnsesyllabus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SE SYLLABUS BOOK"
+        android:textStyle="bold"
+        android:background="#20000000"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        />
+    <Button
+        android:id="@+id/btnsem3se"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SE SEM III"
+        android:textStyle="bold"
+        android:background="#20000000"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        />
+    <Button
+        android:id="@+id/btnsem4se"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SE SEM IV"
+        android:textStyle="bold"
+        android:background="#20000000"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="com.example.vikram.su_notes.Tefiles">
+
+    <Button
+        android:id="@+id/btntesyllabus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TE SYLLABUS BOOK"
+        android:textStyle="bold"
+        android:background="#20000000"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        />
+    <Button
+        android:id="@+id/btnsem5te"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TE SEM V"
+        android:textStyle="bold"
+        android:background="#20000000"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        />
+    <Button
+        android:id="@+id/btnsem6te"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TE SEM VI"
+        android:textStyle="bold"
+        android:background="#20000000"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        />
+
+</LinearLayout>
